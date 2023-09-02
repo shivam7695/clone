@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Kanit&family=Lobster&family=Open+Sans&family=Poppins&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Inconsolata&family=Kanit&family=Lobster&family=Open+Sans&family=Poppins&family=Roboto+Mono&display=swap');
+
+
+
+html,body{
+    margin: 0rem;
+    height: 100%;
+    width: 100%;
+    margin-left:0 ;margin-right:0 ;
+     background-color: black;
+     font-family: 'Kanit', sans-serif;
+     overflow: hidden;
+     display:flex;
+     flex-direction: column;
+     color: white;
+}
+.mycontainer1{
+    flex: 1;
+    display: flex;
+ overflow: hidden;
+
+
+}
+
+
+.nav-bar{
+    flex:0.15;
+    background-color: black;
+    overflow: scroll;
+}
+
+.logo{
+    width: 50%;
+    height: 5vh;
+    margin-left: 50px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+::-webkit-scrollbar{
+    display: none;}
+.nav-text{
+    text-decoration: none;
+    font-size: 19px;
+    padding: 8px;
+    align-items: ;
+    background-color: transparent;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    margin: 5px;
+   
+}
+.playlist{
+    font-family: 'Inconsolata', monospace;
+    
+}
+.list3{
+    border-bottom: 0.5px solid rgb(77, 74, 74);
+}
+.main-content{
+    flex: 0.85;
+    background: rgb(134,162,156);
+    background: linear-gradient(180deg, rgba(134,162,156,1) 10%, rgba(32,32,32,1) 69%, rgba(0,0,0,1) 100%);
+    overflow: scroll;
+}
+.player{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    bottom: 0;
+border: none ;
+background: #181818;
+position: fixed;
+color: white;
+
+}
+.more>img{
+    margin-inline: 10px;
+}
+
+
+
+.TEXT{
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+}
+li{
+    margin-inline:15px ;
+}
